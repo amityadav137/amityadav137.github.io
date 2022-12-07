@@ -1,0 +1,14 @@
+form{
+    display: grid;
+}
+input [type="text"],[type="password"]{
+    height:25pt;
+}
+input[type="submit"] {
+    height: 30pt;
+    color: white;
+    background-color: rgb(20, 128, 229);
+    width: 70pt;
+    border-width: 0pt;
+    border-radius: 5pt;
+}

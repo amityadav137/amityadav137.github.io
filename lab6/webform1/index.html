@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>WebForm1</title>
+        <link href="webform1.css" rel="stylesheet">
+        <script src="webform.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <form >
+            <label>Email address</label><br>
+            <input id="email" type="text" required="" pattern="[A-Za-z0-9_.+\-]+@[a-z0-9.\-]+\.[a-z]{2,}" title="Please fill the email in the x@y.z format."><br>
+            <label>Password</label><br>
+            <input id="pass" type="password"  required="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Please fill the passoword at least 10 characters long in combination of numbers, lower case letters and upper case letters.">
+            <label>Url</label><br>
+            <input id="url" type="text" required="" pattern="https?://.*" title="Please fill the url starting with either http:// or https://"><br>
+            <label><input type="checkbox"> Check me out</label>
+            <input id="submit" type="submit" value="submit">
+        </form>
+    </body>
+</html>
